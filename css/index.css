@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'NexaBold';
+        src: url('../fonts/NexaBold.otf');
+}
+@font-face {
+    font-family: 'NexaLight';
+        src: url('../fonts/NexaLight.otf');
+}
 .left {float: left;}
 .right {float: right;}
 .container {
@@ -7,4 +15,36 @@
 }
 #header {
     background-color: #373737;
+}
+.logo a {
+    position: relative;
+    display: inline-block;
+    height: 65px;
+    width: 80px;
+    vertical-align: middle;
+    font: 36px 'NexaBold';
+    color: white;
+    text-align: center;
+    background: #f26c4f;
+    text-decoration: none;
+}
+.logo a:after {
+    content:'';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    display: block;
+    height: 0;
+    width: 0;
+    margin-top: -13px;
+    border-top: 12px solid #f26c4f;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #f26c4f;
+}
+.logo > span {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+    font: 18px 'NexaLight';
+    color: white;
 }
