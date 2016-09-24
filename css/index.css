@@ -27,3 +27,35 @@
     color: white;
     margin-bottom: 60px;
 }
+
+#nav {
+    background-color: #474747;
+/* height: 65px; */
+}
+.navigation li {
+    float: left;
+    padding: 20px 0;
+    list-style-type: none; /* скрывает отображение маркеров в списке */
+}
+.navigation li span {
+    display: block;
+    height: 11px;
+    line-height: 11px;
+    padding: 0 25px;
+    border-right: 1px solid #767676;
+}
+.navigation li a {
+    position: relative;
+    font-size: 12px;
+    color: white;
+}
+.navigation li a:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -18px;
+    display: block;
+    height: 4px;
+    background: #f26c4f;
+}
