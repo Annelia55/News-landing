@@ -13,12 +13,8 @@
     margin: 0 auto; /* изображение по центру */
     padding: 0 10px;
 }
-#header {
-    background-color: #373737;
-}
-.logo {
-    height: 65px;
-}
+#header {background-color: #373737;}
+.logo {height: 65px;}
 .logo > span {
     display: inline-block;
     margin-left: 20px;
@@ -27,11 +23,7 @@
     color: white;
     margin-bottom: 60px;
 }
-
-#nav {
-    background-color: #474747;
-/* height: 65px; */
-}
+#nav {background-color: #474747;}
 .navigation li {
     float: left;
     padding: 20px 0;
@@ -59,12 +51,8 @@
     height: 4px;
     background: #f26c4f;
 }
-.panel-header {
-    padding: 15px 0 10px;
-}
-.search-wrap {
-    width: 295px;
-}
+.panel-header {padding: 15px 0 10px;}
+.search-wrap {width: 295px;}
 .search {
     width: 100%;
     height: 45px;
@@ -81,3 +69,20 @@
     font: bold 12px Arial, sans-serif;
     color: #959595;
 }
+.social {padding-top: 11px;}
+.social a {
+    display: inline-block;
+    height: 13px;
+    padding-left: 20px;
+    margin-left: 25px;
+    color: #8f8f8f;
+    font: 12px Arial, sans-serif;
+    line-height: 13px;
+    background: url(../img/social-ic.png) no-repeat;
+}
+.social a:first-child {margin-left: 0;}
+
+.social .tw {background-position: 0 0;}
+.social .fb {background-position: 0 -13px;}
+.social .rs {background-position: 0 -26px;}
+.social .em {background-position: 0 -39px;}
