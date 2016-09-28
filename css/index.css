@@ -114,12 +114,25 @@
     width: 360px;
 }
 .feature-txt {
+    position: relative;
     margin-bottom: 5px;
     height: 390px;
     width: 310px;
     padding: 40px 40px;
     background: #373737;
     border-left: 9px solid #f26c4f;
+}
+.feature-txt:after { /* оранжевый треугольник */
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: block;
+    height: 0;
+    width: 0;
+    border-top: 12px solid transparent;
+    border-left: 12px solid #f26c4f;
+    border-bottom: 12px solid transparent;
 }
 .feature-txt h4 {
     font: bold 19px Arial, sans-serif;
