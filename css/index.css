@@ -189,4 +189,21 @@ h3.article-title a:hover {
     width: 100%;
     height: 190px;
 }
-
+.zoom {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 80px;
+    width: 80px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 8px;
+    background: url(../img/zoom-bl.png) no-repeat;
+}
+.zoom a {
+    display: inline-block;
+    padding: 5px 8px;
+    font-family: Tahoma;
+    color: white;
+    font-size: 24px;
+}
