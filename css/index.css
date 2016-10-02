@@ -52,6 +52,8 @@
     height: 4px;
     background: #f26c4f;
 }
+
+
 .panel-header {padding: 15px 0 10px;}
 .search-wrap {width: 295px;}
 .search {
@@ -88,6 +90,8 @@
 .social .fb {background-position: 0 -13px;}
 .social .rs {background-position: 0 -26px;}
 .social .em {background-position: 0 -39px;}
+
+
 
 .feature-img {
     position: relative;
@@ -150,6 +154,8 @@
 .text-right img {
     vertical-align: middle;
 }
+
+
 #articles {
     margin-bottom: 20px;
 }
@@ -189,6 +195,8 @@ h3.article-title a:hover {
     width: 100%;
     height: 190px;
 }
+
+
 .zoom {
     position: absolute;
     top:0;
@@ -207,29 +215,81 @@ h3.article-title a:hover {
     color: white;
     font-size: 24px;
 }
+
+
 .sidebar {
     width: 300px;
 }
-.news {
+.content {
+    margin-right: 320px;
+}
+
+
+.news-bl {
     position: relative;
     background: #373737;
     height: 580px;
     color: white;
 }
-.news p {
+.news-bl p {
     font: 12px/24px Arial, sans-serif;
     padding: 0 30px;
 }
-.news h3.article-title {
+.news-bl h3.article-title {
     padding: 20px 30px 15px 30px;
     font: bold 25px/31px Arial, sans-serif;
 }
-.news h3.article-title a {
+.news-bl h3.article-title a {
     color: white;
 }
-.news h3.article-title a:hover {
+.news-bl h3.article-title a:hover {
     color: #dddddd;
 }
-.content {
-    margin-right: 320px;
+
+
+.news-item {
+    border-left: 5px solid #f26c4f;
+    padding: 35px 40px 40px;
+    background: white;
+}
+.title-news {
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+h4.title-news {
+    font-size: 24px;
+}
+.title-news a {
+    color: inherit; /* цвет такой же ка кв заголовке */
+}
+.title-news a:hover {
+    color: #000000;
+}
+.news-item p {
+    color: #707070;
+    line-height: 21px;
+}
+.news-panel {
+    margin-bottom: 10px;
+    font: 10px Tahoma, sans-serif;
+    color: #8f8f8f;
+}
+.news-panel span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.divider {
+    margin: 0 30px;
+    width: 1px;
+    height: 21px;
+    background: #dfdfdf;
+}
+.rate {
+    width: 65px;
+    margin-right: 5px;
+}
+.rate span {
+    height: 14px;
+    background: url("../img/star.png") repeat-x;
 }
