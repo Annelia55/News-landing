@@ -249,8 +249,22 @@ h3.article-title a:hover {
 
 .news-item {
     border-left: 5px solid #f26c4f;
+    margin-bottom: 14px;
     padding: 35px 40px 40px;
     background: white;
+}
+.news-item.selected {
+    border-left: 5px solid #ce4e32;
+    background: #f26c4f;
+}
+.news-item p {
+    color: #707070;
+    line-height: 21px;
+}
+.news-item.selected p,
+.news-item.selected .news-panel,
+.news-item.selected .title-news {
+    color: white;
 }
 .title-news {
     font-weight: bold;
@@ -265,10 +279,6 @@ h4.title-news {
 }
 .title-news a:hover {
     color: #000000;
-}
-.news-item p {
-    color: #707070;
-    line-height: 21px;
 }
 .news-panel {
     margin-bottom: 10px;
@@ -292,4 +302,7 @@ h4.title-news {
 .rate span {
     height: 14px;
     background: url("../img/star.png") repeat-x;
+}
+.news-item.selected .rate span {
+    background: url("../img/star2.png") repeat-x;
 }
