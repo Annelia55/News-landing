@@ -215,16 +215,12 @@ h3.article-title a:hover {
     color: white;
     font-size: 24px;
 }
-
-
 .sidebar {
     width: 300px;
 }
 .content {
     margin-right: 320px;
 }
-
-
 .news-bl {
     position: relative;
     background: #373737;
@@ -245,17 +241,25 @@ h3.article-title a:hover {
 .news-bl h3.article-title a:hover {
     color: #dddddd;
 }
-
-
 .news-item {
     border-left: 5px solid #f26c4f;
     margin-bottom: 14px;
-    padding: 35px 40px 40px;
+    padding: 35px 35px;
     background: white;
+    border-bottom: 1px solid #d3d3d3;
 }
 .news-item.selected {
+    margin-bottom: 12px;
     border-left: 5px solid #ce4e32;
     background: #f26c4f;
+}
+.news-item.medium {
+    margin-bottom: 8px;
+    padding: 25px 35px 12px;
+}
+.news-item.small {
+    margin-bottom: 6px;
+    padding: 15px 35px 5px;
 }
 .news-item p {
     color: #707070;
@@ -271,8 +275,17 @@ h3.article-title a:hover {
     color: #474747;
     margin-bottom: 10px;
 }
+.title-news.medium {
+    margin-bottom: 5px;
+}
+.title-news.small {
+    margin-bottom: 3px;
+}
 h4.title-news {
     font-size: 24px;
+}
+h5.title-news {
+    font-size: 18px;
 }
 .title-news a {
     color: inherit; /* цвет такой же ка кв заголовке */
@@ -306,3 +319,4 @@ h4.title-news {
 .news-item.selected .rate span {
     background: url("../img/star2.png") repeat-x;
 }
+
