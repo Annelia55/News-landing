@@ -351,7 +351,7 @@ h5.title-news {
     font-size: 18px;
 }
 .title-news a {
-    color: inherit; /* цвет такой же ка кв заголовке */
+    color: inherit; /* цвет такой же как в заголовке */
 }
 .title-news a:hover {
     color: #000000;
@@ -447,5 +447,29 @@ h5.title-news {
 }
 
 /* PAGE FOOTER */
+#page-footer {
+    background: #373737;
+}
+.footer-content {
+    margin: 0 400px 0 250px;
+    padding: 40px 0 30px;
+}
+.footer-navigation {
+    margin-bottom: 25px;
+}
+.footer-navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 15px;
+}
+.footer-navigation a:hover {
+    color: #dddddd;
+}
+.footer-text {
+    font-size: 11px;
+    line-height: 21px;
+    color: #7e7e7e;
+}
 
 
