@@ -9,6 +9,9 @@
 .left {float: left;}
 .right {float: right;}
 
+a {
+    cursor: pointer;
+}
 .container {
     max-width: 960px;
     margin: 0 auto; /* изображение по центру */
@@ -247,7 +250,7 @@ h3.article-title a:hover {
     padding: 35px 5px 0 15px;
 }
 .article-title-2 {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     font: bold 19px/24px Arial, sans-serif;
     color: #474747;
 }
@@ -267,7 +270,7 @@ h3.article-title a:hover {
     color: #a7a7a7;
 }
 .delimiter {
-    margin: 25px 15px 0 15px;
+    margin: 20px 15px 0 15px;
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #f5f5f5;
 }
@@ -277,7 +280,7 @@ h3.article-title a:hover {
     margin-bottom: 7px;
     border-left: 3px solid #cacaca;
     border-bottom: 1px solid #dedede;
-    padding: 15px 10px 15px 25px;
+    padding: 9px 10px 9px 20px;
     background: white;
 }
 .article-title-3 {
@@ -302,10 +305,10 @@ h3.article-title a:hover {
     margin-right: 320px;
 }
 .news-item {
-    border-left: 5px solid #f26c4f;
     margin-bottom: 14px;
     padding: 35px 35px;
     background: white;
+    border-left: 5px solid #f26c4f;
     border-bottom: 1px solid #d3d3d3;
 }
 .news-item.selected {
@@ -378,5 +381,52 @@ h5.title-news {
 }
 .news-item.selected .rate span {
     background: url("../img/star2.png") repeat-x;
+}
+.read-more {
+    display: block;
+    text-align: center;
+    margin: 30px 0 25px 0;
+}
+.read-more p {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font: bold 14px/21px Arial, sans-serif;
+    color: #bdbdbd;
+}
+
+/* TEXT-BOX */
+.text-box {
+    background: white;
+    padding: 35px 35px 30px 35px;
+    border-bottom: #dedede;
+}
+.title-box {
+    padding-bottom: 30px;
+    font: bold 30px/25px Arial, sans-serif;
+    color: #707070;
+}
+.title-box a {
+    color: inherit;
+}
+.title-box a:hover {
+    color: #000000;
+}
+.text-box p {
+    font: bold 14px/24px Arial, sans-serif;
+    color: #707070;
+}
+.text-box p span {
+    color: #f26c4f;
+}
+/* text-box-footer */
+.text-box-footer {
+    background: #efefef;
+    border: 1px solid #dedede;
+    padding: 15px;
+    font-size: 12px;
+    color: #a2a2a2;
+}
+.box-like span {
+    padding-right: 8px;
 }
 
